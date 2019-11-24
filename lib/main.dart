@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: ColorSecondary,
         ),
         body: Container(
-          padding: padding.all.xs, // Padding - Design System
+          padding: spacer.all.xs, // Padding - Design System
           child: Column(
             children: <Widget>[
               Container(
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                   ),
                   borderRadius: BorderRadius.circular(grid_spacer), // Dimensions - Design System
                 ),
-                padding: padding.x.md + padding.top.xs, // Dimensions - Design System
+                padding: spacer.x.md + spacer.top.xs, // Dimensions - Design System
                 child: Row(
                   children: <Widget>[
                   Expanded(
@@ -94,7 +94,7 @@ class MyApp extends StatelessWidget {
                                   Positioned(
                                     left: grid_spacer * 4,  // Dimensions - Design System
                                     child: Container(
-                                      padding: padding.all.xxs,  // Dimensions - Design System
+                                      padding: spacer.all.xxs,  // Dimensions - Design System
                                       width: grid_spacer * 6,  // Dimensions - Design System
                                       height: grid_spacer * 6, // Dimensions - Design System
                                       decoration: BoxDecoration(
@@ -113,7 +113,7 @@ class MyApp extends StatelessWidget {
                                     ),
                                   ),
                                   Container(
-                                    padding: padding.all.xxs,  // Dimensions - Design System
+                                    padding: spacer.all.xxs,  // Dimensions - Design System
                                     width: grid_spacer * 6,  // Dimensions - Design System
                                     height: grid_spacer * 6,  // Dimensions - Design System
                                     decoration: BoxDecoration(

@@ -105,5 +105,4 @@ class _Helper {
   static double xxl = 7;
 }
 
-Dimension margin = Dimension(grid_spacer);
-Dimension padding = Dimension(grid_spacer);
+Dimension spacer = Dimension(grid_spacer);
