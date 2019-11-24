@@ -1,4 +1,7 @@
-# demo_app
+# Basic Flutter Card
+Implementing Design System - Flutter
+
+![Basic Card in Android](/basic-card-screenshot.png)
 
 A new Flutter project.
 
