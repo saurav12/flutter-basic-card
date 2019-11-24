@@ -1,7 +1,7 @@
 # Basic Flutter Card
 Implementing Design System - Flutter
 
-![Basic Card in Android](/basic-card-screenshot.png)
+<img src="/basic-card-screenshot.png" width="300">
 
 A new Flutter project.
 
